@@ -32,7 +32,8 @@ sudo apt-get install -y -qq \
     ffmpeg \
     libsm6 \
     libxext6 \
-    libgl1-mesa-glx \
+    libgl1 \
+    libglx-mesa0 \
     git \
     curl \
     > /dev/null
